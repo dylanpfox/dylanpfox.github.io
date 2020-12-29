@@ -1,0 +1,25 @@
+/* Global Styling */
+
+body {
+    font: 15px/1.5 'Roboto', Helvetica, sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+}
+
+li:hover a {
+    color: #367F97;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+/* Header Styling */
+
+#header {
+    padding: 3rem 15rem 3rem 15rem;
+    background-color: #FFF;
+}
+

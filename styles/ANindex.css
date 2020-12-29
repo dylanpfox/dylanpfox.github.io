@@ -1,0 +1,77 @@
+/* Global Styling */
+
+body {
+    font: 15px/1.5 'Roboto', Helvetica, sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+}
+
+li:hover a {
+    color: #367F97;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+button:hover {
+
+}
+
+mark {
+    background-color: #173843;
+    color: #FFF;
+}
+
+/* Header Styling */
+
+#header {
+    padding: 3rem 15rem 3rem 15rem;
+    background-color: #FFF;
+}
+
+#recimg {
+    width: 25rem;
+    height: 30rem;
+    clip-path: rec(M48 84C48 42.0263 82.0264 8 124 8H663.5V604H124C82.0264 604 48 569.974 48 528V415.91C48 405.973 46.051 396.131 42.2632 386.944L20.9191 335.17C13.8814 318.1 13.2992 299.05 19.2813 281.581L43.901 209.688C46.615 201.762 48 193.443 48 185.065V84Z);
+}
+
+hr {
+    background-color: #173843;
+    opacity: 0.7;
+    border-width: 0.30rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#sidebar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+b {
+    color: #367F97;
+}
+
+#b-btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#dot1 {
+    height: 35rem;
+    width: 35rem;
+    background-color: #EAF8F9;
+    position: absolute;
+    margin: 0 -50% 0 -25%;
+}
+
+#dot2 {
+    height: 35rem;
+    width: 35rem;
+    background-color: #C4C4C4;
+    position: absolute;
+    margin: 0 50% 0 0;
+}  
