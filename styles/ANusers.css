@@ -34,14 +34,6 @@ hr {
 
 }
 
-#recTwo {
-    transform: translate(55%, 10%);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    max-width: 52.8vw;
-}
-
 #icons3 {
     font-size:100px;
     color: #367F97;
